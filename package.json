@@ -11,8 +11,13 @@
     "lint": "eslint src --ext .jsx,.js,.tsx,.ts  --no-error-on-unmatched-pattern --fix && stylelint --fix src/{,*/}*.{scss,css} --allow-empty-input"
   },
   "dependencies": {
+    "@fontsource/roboto": "^5.0.13",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@it-incubator/eslint-config": "^1.0.3",
